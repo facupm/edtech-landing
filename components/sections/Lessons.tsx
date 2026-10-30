@@ -25,7 +25,7 @@ export function Lessons() {
                     </div>
                     <h3 className="mt-3 font-display text-lg font-bold leading-snug">{l.title}</h3>
                     <p className="mt-auto pt-3 text-sm text-ink-soft">
-                      Competencia: <span className="font-semibold text-ink">{l.skill}</span>
+                      Habilidad: <span className="font-semibold text-ink">{l.skill}</span>
                     </p>
                   </div>
                 </article>

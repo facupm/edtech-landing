@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { SITE } from "@/lib/config";
+import { LogoMark } from "@/components/ui/Logo";
 
 export const dynamic = "force-static";
 export const alt = `${SITE.name} · ${SITE.tagline}`;
@@ -23,21 +24,7 @@ export default function OpenGraphImage() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-          <div
-            style={{
-              width: 72,
-              height: 72,
-              borderRadius: 20,
-              background: "#FFC83D",
-              border: "5px solid #14141A",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: 40,
-            }}
-          >
-            ✏
-          </div>
+          <LogoMark size={84} />
           <div style={{ fontSize: 64, fontWeight: 800 }}>{SITE.name}</div>
         </div>
 

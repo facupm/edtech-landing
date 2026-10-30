@@ -32,7 +32,7 @@ export const TEAM = [
     name: "Martin Duva",
     initials: "MD",
     role: "Co-founder",
-    bio: "Impulsa Tiza para llevar la IA al aula uruguaya.", // TODO: reemplazar por bio real
+    bio: "Ingeniero en Sistemas, egresado de ORT Uruguay.", // TODO: ampliar con más info
     linkedin: "", // URL de LinkedIn; vacío = sin link
     tone: "sky",
   },
@@ -40,7 +40,7 @@ export const TEAM = [
     name: "Facundo Pirez",
     initials: "FP",
     role: "Co-founder",
-    bio: "Impulsa Tiza para llevar la IA al aula uruguaya.", // TODO: reemplazar por bio real
+    bio: "Ingeniero en Sistemas, egresado de ORT Uruguay.", // TODO: ampliar con más info
     linkedin: "",
     tone: "sun",
   },

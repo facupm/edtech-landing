@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { SITE } from "@/lib/config";
 import { NAV_LINKS } from "@/lib/content";
+import { Logo } from "@/components/ui/Logo";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -14,14 +15,8 @@ export function Navbar() {
         aria-label="Principal"
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6"
       >
-        <a href="#top" className="flex items-center gap-2 font-display text-xl font-extrabold">
-          <span
-            aria-hidden
-            className="grid size-8 place-items-center rounded-lg border-2 border-ink bg-sun text-base shadow-[0_2px_0_var(--color-ink)]"
-          >
-            ✏️
-          </span>
-          {SITE.name}
+        <a href="#top" aria-label={`${SITE.name}, ir al inicio`}>
+          <Logo />
         </a>
 
         <ul className="hidden items-center gap-7 md:flex">

@@ -31,19 +31,19 @@ export function Hero() {
             {HERO.sub}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href="#contacto"
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-sky-deep px-6 text-base font-bold text-white shadow-[0_5px_0_#0b3d7a] transition-all hover:-translate-y-0.5 active:translate-y-1 active:shadow-none"
+              className="inline-flex min-h-12 items-center justify-center gap-2 whitespace-nowrap rounded-2xl bg-sky-deep px-5 text-[15px] font-bold text-white shadow-[0_5px_0_#0b3d7a] transition-all hover:-translate-y-0.5 active:translate-y-1 active:shadow-none"
             >
               {HERO.ctaPrimary}
-              <ArrowRight className="size-5" aria-hidden />
+              <ArrowRight className="size-4" aria-hidden />
             </a>
             <a
               href="#como-funciona"
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl border-2 border-ink bg-paper px-6 text-base font-bold shadow-[0_5px_0_var(--color-ink)] transition-all hover:-translate-y-0.5 active:translate-y-1 active:shadow-none"
+              className="inline-flex min-h-12 items-center justify-center gap-2 whitespace-nowrap rounded-2xl border-2 border-ink bg-paper px-5 text-[15px] font-bold shadow-[0_5px_0_var(--color-ink)] transition-all hover:-translate-y-0.5 active:translate-y-1 active:shadow-none"
             >
-              <PlayCircle className="size-5" aria-hidden />
+              <PlayCircle className="size-4" aria-hidden />
               {HERO.ctaSecondary}
             </a>
           </div>

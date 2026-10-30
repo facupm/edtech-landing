@@ -76,8 +76,8 @@ export const HISTORY_EVENTS = [
 
 export const PROBLEM = {
   eyebrow: "El problema",
-  title: "No es falta de ganas. Es falta de tiempo y de herramientas.",
-  sub: "Los docentes saben qué quieren que los estudiantes vivan en clase. Producirlo es lo que no da.",
+  title: "A los docentes no les faltan ideas. Les faltan tiempo y herramientas.",
+  sub: "Saben qué quieren que sus estudiantes vivan en clase. Producirlo es lo que no da.",
   cards: [
     {
       icon: Clock,
@@ -143,8 +143,8 @@ export const STEPS = {
     },
     {
       n: 4,
-      title: "Medí el progreso por competencia",
-      text: "Mirá cómo avanza cada grupo, alineado al Marco Curricular Nacional. Datos para decidir, no para vigilar.",
+      title: "Medí cómo avanza cada grupo",
+      text: "Mirá el progreso por habilidad y por grupo, alineado al Marco Curricular Nacional. Datos para decidir, no para vigilar.",
     },
   ],
 };
@@ -152,7 +152,7 @@ export const STEPS = {
 // TODO: verificar con el MCN que cada competencia asignada a estas lecciones sea la correcta
 export const LESSONS = {
   eyebrow: "Así se ve aprender haciendo",
-  title: "Distintas materias, distintas edades. Una misma idea: tocar para entender.",
+  title: "Distintas materias, distintas edades. Una misma idea: experimentar para entender.",
   sub: "Ejemplos ilustrativos de lo que la plataforma podría generar.",
   items: [
     { id: "fracciones", title: "Fracciones con pizzas", subject: "Matemática", age: "3.º primaria", skill: "Pensamiento matemático", tone: "coral" },
@@ -175,7 +175,7 @@ export const AUDIENCE = {
       points: [
         "Diferenciación: tu identidad pedagógica, en cada lección",
         "Contenido propio, alineado a tu programa",
-        "Datos de progreso por grupo y por competencia",
+        "Datos de progreso por grupo y por habilidad",
       ],
     },
     {
@@ -244,7 +244,7 @@ export const VISION = {
 
 export const TEAM_COPY = {
   eyebrow: "Equipo",
-  title: "Dos personas, una idea y muchas ganas de construirla con vos.",
+  title: "Dos ingenieros en sistemas, egresados de ORT Uruguay, con una idea y muchas ganas de construirla con vos.",
 };
 
 export const CONTACT_COPY = {

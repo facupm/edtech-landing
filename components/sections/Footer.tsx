@@ -1,4 +1,5 @@
-import { CONTACT, SITE, whatsappUrl } from "@/lib/config";
+import { CONTACT, whatsappUrl } from "@/lib/config";
+import { Logo } from "@/components/ui/Logo";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -7,8 +8,8 @@ export function Footer() {
     <footer className="border-t border-line bg-paper">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-10 text-center text-sm text-ink-soft sm:flex-row sm:justify-between sm:px-6 sm:text-left">
         <div>
-          <p className="font-display text-lg font-extrabold text-ink">{SITE.name}</p>
-          <p>Hecho con 🧉 en Montevideo · {year}</p>
+          <Logo />
+          <p className="mt-3">Hecho con 🧉 en Montevideo · {year}</p>
         </div>
         <ul className="flex flex-wrap justify-center gap-5">
           <li>

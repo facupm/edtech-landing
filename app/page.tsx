@@ -4,6 +4,7 @@ import { Problem } from "@/components/sections/Problem";
 import { Compare } from "@/components/sections/Compare";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Lessons } from "@/components/sections/Lessons";
+import { PythagorasLesson } from "@/components/sections/PythagorasLesson";
 import { Audience } from "@/components/sections/Audience";
 import { WhyNow } from "@/components/sections/WhyNow";
 import { Vision } from "@/components/sections/Vision";
@@ -21,6 +22,7 @@ export default function Home() {
         <Compare />
         <HowItWorks />
         <Lessons />
+        <PythagorasLesson />
         <Audience />
         <WhyNow />
         <Vision />

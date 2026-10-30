@@ -164,6 +164,17 @@ export const LESSONS = {
   ] as { id: string; title: string; subject: string; age: string; skill: string; tone: Tone }[],
 };
 
+export const PYTHAGORAS = {
+  eyebrow: "Aprendé viendo",
+  title: "Pitágoras en 60 segundos",
+  sub: "Una lección de ejemplo, animada y paso a paso: de la pregunta a la demostración, un caso de la vida real y un final donde el alumno experimenta. Ilustra el tipo de experiencia que la plataforma podría generar.",
+  points: [
+    { title: "Nítida en cualquier pantalla", text: "Se dibuja con código, no es un video pesado: se ve bien en el celular y se puede corregir o traducir al instante.", tone: "sky" },
+    { title: "El alumno marca el ritmo", text: "Capítulos, subtítulos y una línea de tiempo para volver justo a la parte que no se entendió.", tone: "sun" },
+    { title: "Termina en algo que se toca", text: "La última escena es un experimento: mové los catetos y comprobá que las áreas siempre cuadran.", tone: "mint" },
+  ] as { title: string; text: string; tone: Tone }[],
+};
+
 export const AUDIENCE = {
   eyebrow: "Para quién",
   title: "Una herramienta pensada para toda la comunidad educativa.",

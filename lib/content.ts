@@ -13,16 +13,16 @@ import { SITE } from "./config";
 const N = SITE.name;
 
 export const NAV_LINKS = [
-  { href: "#problema", label: "Problema" },
+  { href: "#problema", label: "Desafío" },
   { href: "#solucion", label: "Solución" },
   { href: "#como-funciona", label: "Cómo funciona" },
   { href: "#contacto", label: "Contacto" },
 ];
 
 export const HERO = {
-  titleStart: "Tu currícula, convertida en",
-  titleHighlight: "experiencias interactivas.",
-  sub: `${N} es la plataforma donde cada institución carga su programa y su metodología, y la IA genera lecciones interactivas en español. El docente revisa y decide.`,
+  titleStart: "Entender para transformar,",
+  titleHighlight: "no memorizar para aprobar.",
+  sub: `${N} es la plataforma donde cada institución carga su programa y su metodología, y la IA lo convierte en experiencias interactivas en español. El docente revisa y decide.`,
   ctaPrimary: "Quiero un piloto en mi institución",
   ctaSecondary: "Ver cómo funciona",
   chips: ["Hecho en Uruguay 🇺🇾", "En español", "Pensado para el MCN", "Cualquier materia"],
@@ -75,15 +75,15 @@ export const HISTORY_EVENTS = [
 ];
 
 export const PROBLEM = {
-  eyebrow: "El problema",
-  title: "A los docentes no les faltan ideas. Les faltan tiempo y herramientas.",
-  sub: "Saben qué quieren que sus estudiantes vivan en clase. Producirlo es lo que no da.",
+  eyebrow: "El desafío",
+  title: "Cada docente imagina clases que hacen clic. Hagamos que crearlas sea más simple.",
+  sub: "Los docentes saben qué quieren que sus estudiantes vivan en clase. Nuestra apuesta es que producirlo lleve minutos, no horas.",
   cards: [
     {
       icon: Clock,
       tone: "sun",
       title: "Producir material interactivo lleva horas",
-      text: "Lo que llega al aula sigue siendo mayormente estático: fotocopias, PDFs y diapositivas. No por falta de ideas, sino de tiempo.",
+      text: "El material interactivo es muy laborioso de crear, así que lo que llega al aula suele ser estático: fotocopias, PDFs y diapositivas.",
     },
     {
       icon: Languages,
@@ -101,7 +101,7 @@ export const PROBLEM = {
       icon: Atom,
       tone: "mint",
       title: "Lo abstracto se entiende mejor haciendo",
-      text: "Fracciones, fotosíntesis, causas de un proceso histórico, funciones. Se aprenden manipulando, pero ese material cuesta mucho de hacer.",
+      text: "Fracciones, fotosíntesis, causas de un proceso histórico, funciones. Se aprenden manipulando, pero ese material es muy laborioso de crear.",
     },
   ] as { icon: LucideIcon; tone: Tone; title: string; text: string }[],
 };
@@ -244,7 +244,9 @@ export const VISION = {
 
 export const TEAM_COPY = {
   eyebrow: "Equipo",
-  title: "Dos ingenieros en sistemas, egresados de ORT Uruguay, con una idea y muchas ganas de construirla con vos.",
+  title: "Tres ingenieros en sistemas, egresados de ORT Uruguay, con una idea y muchas ganas de construirla con vos.",
+  motto:
+    "A los tres siempre nos motivó estudiar para entender de verdad los conceptos y usarlos para darle forma al futuro, no para pasar un examen. Esa es la idea detrás de la plataforma.",
 };
 
 export const CONTACT_COPY = {

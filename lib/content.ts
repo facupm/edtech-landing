@@ -1,6 +1,6 @@
 import {
   Clock,
-  Languages,
+  BookOpen,
   Bot,
   Atom,
   Building2,
@@ -86,10 +86,10 @@ export const PROBLEM = {
       text: "El material interactivo es muy laborioso de crear, así que lo que llega al aula suele ser estático: fotocopias, PDFs y diapositivas.",
     },
     {
-      icon: Languages,
+      icon: BookOpen,
       tone: "sky",
-      title: "Lo mejor está en inglés y es de otro país",
-      text: "Las mejores herramientas de aprendizaje interactivo siguen currículas ajenas y no se pueden adaptar a tu programa.",
+      title: "El material interactivo no parte de tu currícula",
+      text: "Cada institución tiene su programa, su metodología y su identidad pedagógica. Acá el material nace de eso, en español y con los ejemplos de tu aula.",
     },
     {
       icon: Bot,

@@ -44,4 +44,12 @@ export const TEAM = [
     linkedin: "",
     tone: "sun",
   },
+  {
+    name: "Joaquín Lamela",
+    initials: "JL",
+    role: "Co-founder",
+    bio: "Ingeniero en Sistemas, egresado de ORT Uruguay.",
+    linkedin: "",
+    tone: "mint",
+  },
 ] as const;

@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 const AVATAR: Record<string, string> = {
   sky: "bg-sky text-ink",
   sun: "bg-sun text-ink",
+  mint: "bg-mint text-ink",
 };
 
 export function Team() {
@@ -14,8 +15,11 @@ export function Team() {
     <section className="py-20 sm:py-28">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <SectionHeading eyebrow={TEAM_COPY.eyebrow} title={TEAM_COPY.title} center />
+        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-relaxed text-ink-soft text-pretty">
+          {TEAM_COPY.motto}
+        </p>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
+        <div className="mt-12 grid gap-4 sm:grid-cols-3">
           {TEAM.map((p, i) => (
             <Reveal key={p.name} delay={i * 0.08}>
               <article className="flex h-full flex-col items-center rounded-3xl border border-line bg-paper p-6 text-center shadow-card">
